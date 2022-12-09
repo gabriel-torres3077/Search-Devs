@@ -1,0 +1,129 @@
+@media screen and (max-width: 500px){
+  .content{
+    margin-top: 20px;
+    width: 90%;
+    margin: 0 5%;
+
+    .profile{
+      width: 100%;
+      .column{
+        float: left;
+      }
+      .picture{
+        width: 5rem;
+        border-radius: 50%;
+      }
+      .name{
+        font-size: 1.5rem;
+        margin-top: 10px;
+        a{
+          color: #000;
+          text-decoration: none;
+        }
+      }
+      .login{
+        font-size: 0.8rem;
+        margin-top: -20px;
+        a{
+          color: #000;
+          text-decoration: none;
+        }
+      }
+      .icons{
+        margin-left: 20px;
+      }
+      .links{
+        display: inline;
+      }
+    }
+    .repos{
+      text-decoration: none;
+      .title{
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+      .description{
+        font-size: 0.8rem;
+      }
+      a{
+        color: #000;
+        text-decoration: none;
+      }
+    }
+
+  }
+}
+
+
+@media screen and (min-width: 500px){
+  .main_title{
+    margin-left: 4%;
+    font-size: 4rem;
+    color: #063fb9;
+  }
+  .devs{
+    color: #930480;
+  }
+  .content{
+    width: 90%;
+    margin: 0 5%;
+
+    .profile{
+      float: left;
+      display: block;
+      width: 13%;
+      .icon{
+        width: 30px;
+      }
+      .follow{
+        font-size: 1.9rem;
+      }
+      .picture{
+        width: 18rem;
+        border-radius: 50%;
+        margin-bottom: 120px;
+        display: block;
+      }
+      .name{
+        font-size: 1.5rem;
+        margin-top: 10px;
+        a{
+          color: #000;
+          text-decoration: none;
+        }
+      }
+      .login{
+        font-size: 1.6rem;
+        a{
+          color: #000;
+          text-decoration: none;
+        }
+      }
+      .icons{
+        margin-left: 20px;
+      }
+      .links{
+        display: block;
+      }
+    }
+    .repos{
+      float: left;
+      text-decoration: none;
+      margin-left: 10%;
+      .title{
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      .description{
+        font-size: 1.6rem;
+      }
+      a{
+        color: #000;
+        text-decoration: none;
+      }
+    }
+
+  }
+}
+
+

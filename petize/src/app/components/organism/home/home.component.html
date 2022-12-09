@@ -1,0 +1,13 @@
+<h1 class="main_title">Search <b class="devs">D_evs</b></h1>
+<form  [formGroup]="form" (ngSubmit)="get_user()">
+    <div class="form-group">
+      <input class="input_w" type="text" placeholder="User..." formControlName="user" id="name">
+      <button>Search</button>
+      <div class="alert" *ngIf="form.controls['user'].invalid && (form.controls['user'].dirty || form.controls['user'].touched)">
+        <div *ngIf="form.controls['user']?.errors?.['required']">
+            <p class="alert">*Please enter a user</p>
+        </div>
+      </div><br>
+
+    </div>
+</form>

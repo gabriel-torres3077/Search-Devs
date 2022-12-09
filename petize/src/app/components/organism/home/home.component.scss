@@ -1,0 +1,99 @@
+@media screen and (min-width: 800px){
+  body{
+    width: 100%;
+  }
+  ::ng-deep .purple-snackbar{
+    color: #cecece !important;
+    background: #8921f2 !important;
+    height: 90px;
+    font-size: 2rem;
+    margin-top: 25% !important;
+    margin-left: 30% !important;
+    text-align: center;
+  }
+
+  .form-group{
+    background-color: #cecece;
+    justify-items: center;
+    width: 40.5rem;
+    margin-left: 37%;
+    input{
+      width: 40rem;
+      height: 3rem;
+      font-size: 3rem;
+      margin-bottom: 20px;
+      border: 1px solid #cecece;
+    }
+    button{
+      float: right;
+      background-color: #8921f2;
+      font-size: 2.4rem;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      padding: 5px 20px;
+    }
+    .alert{
+      font-size: 2rem;
+      color: red;
+    }
+  }
+  .main_title{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 4rem;
+    color: #063fb9;
+  }
+  .devs{
+    color: #930480;
+  }
+}
+
+@media screen and (max-width: 800px){
+  body{
+    width: 100%;
+  }
+  ::ng-deep .purple-snackbar{
+    color: #cecece !important;
+    background: #8921f2 !important;
+    margin: 80% 20%;
+    height: 2rem;
+  }
+
+  .form-group{
+    background-color: #cecece;
+    justify-items: center;
+    width: 80%;
+    margin-left: 10%;
+    input{
+      width: 20rem;
+      height: 1.5rem;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+
+    }
+    button{
+      float: right;
+      background-color: #8921f2;
+      margin-right: 10%;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 5px;
+      color: #fff;
+      padding: 5px 20px;
+    }
+    .alert{
+      font-size: 2rem;
+      color: red;
+    }
+  }
+  .main_title{
+    margin-top: 10%;
+    text-align: center;
+    font-size: 2rem;
+    color: #063fb9;
+  }
+  .devs{
+    color: #930480;
+  }
+}
