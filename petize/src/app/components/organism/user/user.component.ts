@@ -22,7 +22,7 @@ export class UserComponent implements OnInit {
   ngOnInit(): void {
     let username: string;
     this.route.paramMap.subscribe((param) => {
-      username = String(param.get('string'));
+      username = String(param.get('username'));
       this.gitHubService.getUser(username).subscribe((res) => {
         this.set_user(res);
         this.get_repositories();

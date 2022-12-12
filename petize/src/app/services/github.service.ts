@@ -11,6 +11,7 @@ export class GithubService {
   constructor(private http: HttpClient) { }
 
   public getUser(user: string) {
+    console.log(`${this.apiURL}/${user}`)
     return this.http.get(`${this.apiURL}/${user}`)
   }
   public getRepos(user: string){

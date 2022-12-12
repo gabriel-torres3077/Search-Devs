@@ -1,4 +1,4 @@
-@media screen and (max-width: 500px){
+@media screen and (max-width: 800px){
   .content{
     margin-top: 20px;
     width: 90%;
@@ -55,7 +55,7 @@
 }
 
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 800px){
   .main_title{
     margin-left: 4%;
     font-size: 4rem;
@@ -101,9 +101,21 @@
       }
       .icons{
         margin-left: 20px;
+        display: block;
       }
       .links{
+        font-size: 2rem;
         display: block;
+        text-align: left;
+        margin-top: 5px;
+        .link-box{
+          margin-top: 20px;
+        }
+        .link{
+          border-radius: 50%;
+          margin-top: 9px;
+          padding: 4px 8px;
+        }
       }
     }
     .repos{
